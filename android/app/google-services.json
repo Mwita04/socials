@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1024690559584",
+    "project_id": "socials-cad56",
+    "storage_bucket": "socials-cad56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024690559584:android:7253f3a4fae0da35e5c105",
+        "android_client_info": {
+          "package_name": "com.example.socials"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHb1ETjw8cHvw2y71D7OebsRXUq8S6mXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

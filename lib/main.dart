@@ -2,7 +2,7 @@
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:socials/auth/login_or_register.dart';
+import 'package:socials/auth/auth.dart';
 import 'package:socials/firebase_options.dart';
 import 'package:socials/theme/dark_mode.dart';
 import 'package:socials/theme/light_mode.dart';
@@ -20,10 +20,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginOrRegister(),
+      home: const AuthPage(),
       theme: lightMode,
       darkTheme: darkMode,
     );
   }
 }
- //19:50
+ //21:00

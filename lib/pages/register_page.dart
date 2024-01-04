@@ -46,6 +46,7 @@ class _RegisterPageState extends State<RegisterPage> {
       //Try creating the user
       try {
         //Create the user
+        // ignore: unused_local_variable
         UserCredential? userCredential = await FirebaseAuth.instance
             .createUserWithEmailAndPassword(
                 email: emailController.text, password: passwordController.text);

@@ -24,7 +24,7 @@ class _LoginPageState extends State<LoginPage> {
 
   // Login Method
   void login() async {
-    // show loadind circle
+    // show loading circle
     showDialog(
       context: context,
       builder: (context) => const Center(
@@ -118,7 +118,7 @@ class _LoginPageState extends State<LoginPage> {
 
                   const SizedBox(height: 25),
 
-                  //dont have an account? Register here
+                  //don't have an account? Register here
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [

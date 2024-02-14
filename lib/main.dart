@@ -23,15 +23,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       home: const AuthPage(),
       theme: lightMode,
       darkTheme: darkMode,
       routes: {
-        '/login_register_page':(context) => LoginOrRegister(),
-        '/home_page':(context) => HomePage(),
-        '/profile_page':(context) => ProfilePage(),
-        '/users_page':(context) =>UsersPage(),
+        '/login_register_page': (context) => LoginOrRegister(),
+        '/home_page': (context) => HomePage(),
+        '/profile_page': (context) => ProfilePage(),
+        '/users_page': (context) => UsersPage(),
       },
     );
   }
